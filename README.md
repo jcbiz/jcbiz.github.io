@@ -1,2 +1,2 @@
-# jcb.github.io
-jcb public
+# jcbiz.github.io
+jcbiz public
