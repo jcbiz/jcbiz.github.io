@@ -1,30 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>CS 50 Project 0 / Search</title>
-        <style>
-            body {
-                padding: 4px;
-                font-size: 20px;
-                color: black;
-                background-color: lightgreen;
-            }
-            ol {
-                line-height: 30px;
-            }
-        </style>
+        <title>Google search</title>
+        <link rel="stylesheet" href="search.css">
     </head>
     <body>
-        <ol>
-            <li>
-                <a href="google-search.html">Google search</a>
-            </li>
-            <li>
-                <a href="google-img-search.html">Google image search</a>
-            </li>
-            <li>
-                <a href="google-adv-search.html">Advanced Google search</a>
-            </li>
-        </ol>
+        <div class="top-right">
+            <a href="google-img-search.html">Image Search</a><br>
+            <a href="google-adv-search.html">Advanced Search</a>
+        </div>
+        <center>
+            <img class="search-logo" src="google-logo-transparent.png" width="300" >
+            <form action="https://google.com/search">
+                <input type="text" name="q" onmouseover="ImageBitmapRenderingContext">
+                <br>
+                <input type="submit" value="Google Search">
+            </form>
+        </center>
+        
     </body>
 </html>
