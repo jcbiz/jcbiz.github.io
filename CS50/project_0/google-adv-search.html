@@ -5,18 +5,98 @@
         <link rel="stylesheet" href="search.css">
     </head>
     <body>
-        <div class="top-right">
-            <a href="index.html">Google Search</a><br>
+        <table class="title-table">
+            <tr style="background-color: rgb(236, 236, 236);">
+                <td class="top-left">
+                    <a href="index.html">
+                        <img title="Google Search" src="google-logo-transparent.png" width="80" alt="Google">
+                    </a>
+                </td>
+                <td class="top-right">
+                    <a href="index.html">Google Search</a>
+                </td>
+            </tr>
+        </table>
+        <div>
+            <h3 style="color: rgba(255, 0, 0, 0.671); margin: 40px;">Advanced Search</h3>
         </div>
+        <table style="width: 100%; text-align: left; margin-left: 40px">
+            <tr>
+                <th class="adv-t1">
+                    Find pages with...
+                </th>
+                <th>
+                </th>
+                <th class="adv-t3">
+                    To do this in the search box
+                </th>
+            </tr>
+            <tr>
+                <td class="adv-t1">
+                   all these words: 
+                </td>
+                <td>
+                    <form action="https://google.com/search">
+                        <input class="adv-t2-input" type="text" title=Search" name="as_q">
+                        <input type="hidden" name="as_qdr" value="all">
+                        <input type="hidden" name="as_occt" value="all">
+                        <input type="hidden" name="safe" value="images">
+                    </form>
+                </td>
+                <td class="adv-t3">
+                    Type the important words:  tricolor rat terrier
+                </td>
+            </tr>
+            <tr>
+                <td class="adv-t1">
+                    this exact word or phrase:
+                </td>
+                <td>
+                    <form action="https://google.com/search">
+                        <input class="adv-t2-input" type="text" title=Search" name="as_epq">
+                        <input type="hidden" name="as_qdr" value="all">
+                        <input type="hidden" name="as_occt" value="all">
+                        <input type="hidden" name="safe" value="images">
+                    </form>
+                </td>
+                <td class="adv-t3">
+                    Put exact words in quotes:  "rat terrier"
+                </td>
+            </tr>
+            <tr>
+                <td class="adv-t1">
+                    any of these words: 
+                </td>
+                <td>
+                    <form action="https://google.com/search">
+                        <input class="adv-t2-input" type="text" title=Search" name="as_oq">
+                        <input type="hidden" name="as_qdr" value="all">
+                        <input type="hidden" name="as_occt" value="all">
+                        <input type="hidden" name="safe" value="images">
+                    </form>
+                </td>
+                <td class="adv-t3">
+                    Type OR between all the words you want:  miniature OR standard
+                </td>
+            </tr>
+            <tr>
+                <td class="adv-t1">
+                    none of these words: 
+                </td>
+                <td>
+                    <form action="https://google.com/search">
+                        <input class="adv-t2-input" type="text" title=Search" name="as_eq">
+                        <input type="hidden" name="as_qdr" value="all">
+                        <input type="hidden" name="as_occt" value="all">
+                        <input type="hidden" name="safe" value="images">
+                    </form>
+                </td>
+                <td class="adv-t3">
+                    Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"
+                </td>
+            </tr>
+        </table>
 
-        <center>
-                <img class="search-logo" title="Google Advanced Search" src="google-logo-transparent.png" width="300" alt="Google">
-                <form action="https://google.com/search">
-                    Under construction...
-
-                    <input type="text" title=Search" name="q" onmouseover="ImageBitmapRenderingContext">
-                    <input type="hidden" name="tbm" value="isch">
-                </form>
-        </center>
+                
     </body>
 </html>

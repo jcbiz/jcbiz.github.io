@@ -5,14 +5,24 @@
         <link rel="stylesheet" href="search.css">
     </head>
     <body>
-        <div class="top-right">
-            <a href="google-img-search.html">Image Search</a><br>
-            <a href="google-adv-search.html">Advanced Search</a>
-        </div>
+        <table class="title-table">
+            <tr style="background-color: rgb(236, 236, 236);">
+                <td class="top-left">
+                    <a href="index.html">
+                        <img title="Google Search" src="google-logo-transparent.png" width="80" alt="Google">
+                    </a>
+                </td>
+                <td class="top-right">
+                    <a href="google-img-search.html">Image Search</a><br>
+                    <a href="google-adv-search.html">Advanced Search</a>
+                </td>
+            </tr>
+        </table>
+
         <center>
             <img class="search-logo" title="Google Search" src="google-logo-transparent.png" width="300" alt="Google">
             <form action="https://google.com/search">
-                <input type="text" title="Search" name="q" onmouseover="ImageBitmapRenderingContext">
+                <input class="rounded-input" type="text" title="Search" name="q" onmouseover="ImageBitmapRenderingContext">
                 <br>
                 <input type="submit" value="Google Search">
             </form>
